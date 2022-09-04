@@ -1,8 +1,34 @@
 package edu.eci.cvds.tdd.registry;
+import java.util.Arraylist;
 
 public class Registry {
+        private ArrayList<Person> people;
+
+        public Registry(){
+            people = new ArrayList<>();
+        }
     public RegisterResult registerVoter(Person p){
-        //TODO Validate person and return real result.
-        return RegisterResult.VALID;
+            boolean duplicate = false;
+            int idPerson = p.getId();
+            for(Person person : people){
+                if(person.getId() == idPerson){
+                    duplicate = true;
+                }
+
+            }
+            if(duplicate){
+                return RegisterResult.DUPLICATED;
+            }
+            if(!p.isAlive()){
+                return RegisterResult.DEAD;
+            }
+            if(p.getAge() < 0 || p.getAge() > 120){
+                return RegisterResult.INVALID_AGE;
+            }
+            if(p.getAge() < 18 && p.getAge() > 0) {
+                return RegisterResult.UNDERAGE;
+            }
+            people.add(p);
+            return RegisterResult.VALID;
     }
 }
