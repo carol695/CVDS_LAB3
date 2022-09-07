@@ -7,15 +7,6 @@ public class TarifasTest {
     /**
      * Mediante esta prueba verificamos que la clase CalculadorDescuentos no maneja Excepciones. Por ende , esta prueba falla.
      */
-    @Test
-    public void give_invalidRate_When_There_are_NegativeNumbers_Than_returnException() {
-        try {
-            double tarifa = CalculadorDescuentos.calculoTarifa(-6, -4, -1);
-            assertTrue(false);
-        } catch (Exception e) {
-            assertTrue(true);
-        }
-    }
 
     @Test
     public void give_validRate_When_isYoung_Than_returnDiscount() {

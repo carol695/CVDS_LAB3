@@ -43,12 +43,13 @@ public class Person {
      *	@param alive if the person is alive
      */
 
-    public Person(String name, int id, int age, Gender gender, boolean alive) {this.name = name;this.id = id;this.age = age;this.gender = gender;this.alive = alive;}
+    public Person(String name, int id, int age, Gender gender, boolean alive) {
         this.name = name;
         this.id = id;
-        this.age  = age;
+        this.age = age;
         this.gender = gender;
         this.alive = alive;
+    }
 
     /**
      *	Returns the person name

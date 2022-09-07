@@ -1,5 +1,5 @@
 package edu.eci.cvds.tdd.registry;
-import java.util.Arraylist;
+import java.util.ArrayList;
 
 public class Registry {
         private ArrayList<Person> people;
