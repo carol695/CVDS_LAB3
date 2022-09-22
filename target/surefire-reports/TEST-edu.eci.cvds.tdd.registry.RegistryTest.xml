@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.015" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\clases\Documents\CVDS_LAB3\target\test-classes;C:\Users\clases\Documents\CVDS_LAB3\target\classes;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\clases\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\clases\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\clases\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\clases\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\clases\.m2\repository\edu\eci\cvds\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\carol.cely\Documents\CVDS_LAB3\target\test-classes;C:\Users\carol.cely\Documents\CVDS_LAB3\target\classes;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\carol.cely\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\carol.cely\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\carol.cely\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\carol.cely\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\carol.cely\.m2\repository\edu\eci\cvds\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,43 +17,43 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
-    <property name="sun.java.command" value="C:\Users\clases\AppData\Local\Temp\surefire13009192557366224361\surefirebooter17570539908327809954.jar C:\Users\clases\AppData\Local\Temp\surefire13009192557366224361 2022-09-07T11-24-09_146-jvmRun1 surefire3294431602425171982tmp surefire_03774366489782604507tmp"/>
+    <property name="sun.java.command" value="C:\Users\carol.cely\AppData\Local\Temp\surefire9678094604351470125\surefirebooter2874068843700649288.jar C:\Users\carol.cely\AppData\Local\Temp\surefire9678094604351470125 2022-09-22T16-51-22_825-jvmRun1 surefire5837923916671273958tmp surefire_010331141022982707144tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\clases\Documents\CVDS_LAB3\target\test-classes;C:\Users\clases\Documents\CVDS_LAB3\target\classes;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\clases\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\clases\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\clases\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\clases\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\clases\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\clases\.m2\repository\edu\eci\cvds\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\carol.cely\Documents\CVDS_LAB3\target\test-classes;C:\Users\carol.cely\Documents\CVDS_LAB3\target\classes;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\carol.cely\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\carol.cely\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\carol.cely\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\carol.cely\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\carol.cely\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\carol.cely\.m2\repository\edu\eci\cvds\aerodescuentos\1.0.0\aerodescuentos-1.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\clases"/>
+    <property name="user.home" value="C:\Users\carol.cely"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\clases\Documents\CVDS_LAB3"/>
+    <property name="basedir" value="C:\Users\carol.cely\Documents\CVDS_LAB3"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\clases\AppData\Local\Temp\surefire13009192557366224361\surefirebooter17570539908327809954.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\carol.cely\AppData\Local\Temp\surefire9678094604351470125\surefirebooter2874068843700649288.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
-    <property name="user.name" value="clases"/>
+    <property name="user.name" value="carol.cely"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="localRepository" value="C:\Users\clases\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\carol.cely\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\clases\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\CAROL~1.CEL\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.13"/>
-    <property name="user.dir" value="C:\Users\clases\Documents\CVDS_LAB3"/>
+    <property name="user.dir" value="C:\Users\carol.cely\Documents\CVDS_LAB3"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_25\bin;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files (x86)\BlueJ;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Dev-Cpp;C:\Program Files\MinGW\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\clases\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_25\bin;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files (x86)\BlueJ;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Dev-Cpp;C:\Program Files\MinGW\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\carol.cely\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
