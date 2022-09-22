@@ -129,6 +129,12 @@ Se usará la clase de persona que ya fue creada. El servicio de la registradirí
 
 ![image](https://user-images.githubusercontent.com/63822072/191866444-42f87801-b608-4fdf-baf2-879f029f0ddb.png)
 
+
+### TEST 
+
+![image](https://user-images.githubusercontent.com/63822072/191866609-4f0daf44-60e5-46ba-99a9-ae5427609a76.png)
+
+
 ### Comando instalar archivo. jar en IJ
 
 ![image](https://user-images.githubusercontent.com/63822072/188930731-1e61500d-3942-40ff-a531-d61be813f403.png)
